@@ -56,12 +56,12 @@ ul[role="listbox"] {
   top: 34px;
   list-style: none;
   background-color: white;
-  display: none;
+  display: block;
   box-sizing: border-box;
   border: 2px currentcolor solid;
   max-height: 250px;
   width: 168px;
-  overflow: scroll;
+  overflow: auto;
   overflow-x: hidden;
   font-size: 87.5%;
   cursor: pointer;

@@ -65,7 +65,7 @@ function App() {
   return (
     <>
     {/* <Autocomplete allOptions={states} ariaAutocomplete={"both"}/> */}
-    <AutocompleteCustom allOptions={states}/>
+    <AutocompleteCustom allOptions={states} label={'State'}/>
     </>
   );
 }
